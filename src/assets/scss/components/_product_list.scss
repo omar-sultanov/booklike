@@ -1,0 +1,5 @@
+@import '../mixins';
+.Product_list{
+    @include flex-item;
+    flex-wrap: wrap;
+}

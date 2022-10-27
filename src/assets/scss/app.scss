@@ -1,0 +1,10 @@
+@import './components/all';
+@import './mixins';
+
+.Home {
+  @include flex-item;
+  flex-direction: column;
+}
+body {
+  margin: 0;
+}
